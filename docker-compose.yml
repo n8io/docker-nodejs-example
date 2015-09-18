@@ -1,0 +1,10 @@
+web:
+  build: .
+  env_file:
+    - "app.env"
+  ports:
+    - "80:3000"
+  expose:
+    - "3000"
+  name:
+    - "my-docker-container"

@@ -1,0 +1,23 @@
+# Node.js
+node_modules
+bower_components
+dist
+npm-debug.log*
+
+# git
+.git
+.gitignore
+
+# docker
+docker-compose.yml
+Dockerfile
+app.env
+
+# misc
+coverage
+logs
+*.log
+.DS_Store
+LICENSE
+VERSION
+README.md
